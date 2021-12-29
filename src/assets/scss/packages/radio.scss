@@ -1,0 +1,56 @@
+.ss-radio {
+  display: inline-block;
+  color: #353535;
+  line-height: 1;
+  font-size: 14px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+  &.ss-radio__checked {
+    color: #2A75ED;
+    .ss-radio-arc {
+      .ss-radio-inner {
+        border-color: #2A75ED;
+      }
+    }
+  }
+  .ss-radio-arc {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: top;
+    .ss-radio-inner {
+      display: inline-block;
+      position: relative;
+      width: 14px;
+      height: 14px;
+      border: 1px solid #B2B2B2;
+      border-radius: 50%;
+      box-sizing: border-box;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 1px;
+        top: 1px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #2A75ED;
+        transform: scale(0);
+        transform-origin: center;
+        transition: transform .1s ease-in-out;
+      }
+      &.ss-radio-inner__checked {
+        &:before {
+          transform: scale(1);
+        }
+      }
+    }
+    .ss-radio-input {
+      display: none;
+    }
+  }
+  .ss-radio-text {
+    padding: 0 8px;
+  }
+}

@@ -1,0 +1,143 @@
+@import "../base.scss";
+
+@mixin text-ellipsis() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+$regularFont: #333;
+
+$cell-width: 1.5rem;
+$height: 0.72rem;
+$border-height: 0.4rem;
+
+@mixin base-style() {
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #dcdfe6;
+  box-sizing: border-box;
+  color: #606266;
+  height: $height;
+  line-height: $height;
+  outline: none;
+}
+
+@mixin flex-between() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ss-phone-input {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 0.28rem;
+  .code-cell-wrap {
+    @include base-style;
+    cursor: pointer;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    .code-cell {
+      @include text-ellipsis;
+      border-right: 1px solid #dcdfe6;
+      height: $border-height;
+      width: $cell-width;
+      padding-right: 0.24rem;
+      .icon-icon-down {
+        color: #b2b2b2;
+        font-size: 0.24rem;
+        cursor: pointer;
+      }
+      .is-reverse {
+        transition: all 0.3s ease-in-out;
+        transform: rotate(-180deg);
+      }
+    }
+  }
+  .row {
+    @include text-ellipsis;
+    @include flex-between;
+    width: 100%;
+    padding: 0 0.24rem;
+    .icon-icon-selected {
+      color: $mc1;
+      font-size: 0.32rem;
+    }
+  }
+  .input-wrap {
+    width: 100%;
+    .input__inner {
+      @include base-style;
+      border-left: none;
+      padding: 0 0.24rem;
+      display: inline-block;
+      width: 100%;
+      &::placeholder {
+        color: #999;
+        opacity: 1;
+      }
+    }
+  }
+
+  .ss-dropdown-menu {
+    &::-webkit-scrollbar {
+      width: 0.16rem;
+      height: 0.32rem;
+      background-color: #f5f5f5;
+    }
+
+    /*定义滚动条轨道 内阴影+圆角*/
+    &::-webkit-scrollbar-track {
+      border-radius: 0.2rem;
+      background-color: none;
+    }
+
+    /*定义滑块 内阴影+圆角*/
+    &::-webkit-scrollbar-thumb {
+      border-radius: 0.2rem;
+      background-color: #bcbcbc;
+      transition: 0.3s;
+      &:hover {
+        background-color: #a7a7a7;
+      }
+    }
+    .ss-dropdown-item:hover {
+      color: $regularFont;
+    }
+  }
+}
+
+.ss-input-theme {
+  .code-cell-wrap {
+    border-radius: 0.08rem 0 0 0.08rem;
+    .code-cell {
+      @include flex-between;
+      padding: 0 0.16rem;
+    }
+  }
+}
+
+.ss-border-theme {
+  .code-cell-wrap {
+    border-left: none;
+    border-top: none;
+    .code-cell{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .code{
+        margin-right: 0.16rem;
+      }
+    }
+  }
+  .input-wrap {
+    .input__inner {
+      border-radius: none;
+      border-top: none;
+      border-right: none;
+    }
+  }
+}

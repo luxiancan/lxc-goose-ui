@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 10</title>
+    <g id="横屏" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="购买前-详情一屏效果" transform="translate(-325.000000, -145.000000)" stroke="#105CFB" stroke-width="1.3">
+            <g id="编组-7" transform="translate(317.000000, 140.000000)">
+                <g id="编组-12" transform="translate(8.000000, 5.000000)">
+                    <g id="share-(1)" transform="translate(1.000000, 1.000000)">
+                        <polyline id="路径" points="6.58333333 0.75 11.25 0.75 11.25 5.41666667"></polyline>
+                        <path d="M11.25,7.59649583 L11.25,10.375 C11.25,10.8582625 10.8582625,11.25 10.375,11.25 L1.625,11.25 C1.14175208,11.25 0.75,10.8582625 0.75,10.375 L0.75,1.625 C0.75,1.14175208 1.14175208,0.75 1.625,0.75 L4.25,0.75" id="路径"></path>
+                        <line x1="6.525" y1="5.475" x2="10.9875" y2="1.01249708" id="路径"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

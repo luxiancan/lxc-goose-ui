@@ -1,0 +1,56 @@
+@import '../base.scss';
+
+.ss-footer {
+  overflow: hidden;
+
+  &-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0.33rem;
+    margin: 0.56rem 0 0.56rem 0;
+    width: 100%;
+
+    &-item {
+      font-size: 0.24rem;
+      list-style: none;
+      padding: 0 0.15rem;
+      color: #666666;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        border-right: 1px solid #b2b2b2;
+      }
+    }
+  }
+
+  &-logo {
+    padding-bottom: 0.3rem;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 0.56rem;
+
+    &--default {
+      height: 0.63rem;
+    }
+
+    &--custom {
+      height: 0.76rem;
+
+      .ss-footer-logo--first{
+        height: 0.44rem;
+        margin-bottom: 0.16rem;
+      }
+
+      .ss-footer-logo--last {
+        height: 0.3rem;
+      }
+    }
+
+    img{
+      height: 100%;
+      vertical-align: top;
+    }
+  }
+
+}

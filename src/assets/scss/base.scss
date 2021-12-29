@@ -1,0 +1,20 @@
+$mc: #2A75ED;
+$mc1: #4284ED;
+$mc2: #1367ED;
+
+$ec: #FB6161;
+$ec1: #FB7171;
+$ec2: #E15757;
+
+$sc: #2FCE63;
+$sc1: #44d272;
+$sc2: #2ab858;
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.safe-area-inset-bottom {
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+}

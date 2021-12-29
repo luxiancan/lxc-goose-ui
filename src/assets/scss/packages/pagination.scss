@@ -1,0 +1,75 @@
+@import '../base.scss';
+
+.ss-pagination {
+  font-size: 0;
+  color: #353535;
+  list-style: none;
+  user-select: none;
+  .ss-pagination-item {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 4px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+      color: #2A75ED;
+      border-color: #2A75ED;
+    }
+    &.ss-pagination-item__active {
+      color: #2A75ED;
+      border-color: #2A75ED;
+    }
+    &.ss-pagination-item__disabled {
+      color: #d9d9d9;
+      cursor: not-allowed;
+      border-color: #eee;
+    }
+  }
+  .ss-pagination-right {
+    margin-right: 0
+  }
+  .ss-pagination-ellipsis {
+    border: none;
+    color: rgba(0, 0, 0, .25);
+    &:hover {
+      color: rgba(0, 0, 0, .25);
+      cursor: default;
+    }
+  }
+  .ss-pagination-options {
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 0;
+    .ss-pagination-options-size {
+      display: inline-block;
+      width: 100px;
+      margin-right: 11px;
+    }
+    .ss-pagination-options-jump {
+      display: inline-block;
+      font-size: 14px;
+      .ss-pagination-options-jump-input {
+        width: 50px;
+        height: 32px;
+        padding: 4px 11px;
+        margin: 0 8px;
+        font-size: 14px;
+        border: 1px solid #d9d9d9;
+        border-radius: 4px;
+        box-sizing: border-box;
+        outline: none;
+        transition: border-color .3s ease-in-out;
+        &:hover, &:focus {
+          border-color: #2A75ED;
+        }
+      }
+    }
+  }
+}

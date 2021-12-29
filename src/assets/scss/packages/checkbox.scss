@@ -1,0 +1,122 @@
+@import '../base.scss';
+
+.ss-checkbox {
+  display: inline-block;
+  user-select: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  &:hover, &:focus {
+    .ss-checkbox-inner {
+      border-color: $mc;
+    }
+  }
+  &.ss-checkbox__indeterminate {
+    .ss-checkbox-inner {
+      background-color: $mc;
+      border-color: $mc;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 2px;
+        top: 5px;
+        width: 8px;
+        height: 2px;
+        background: #fff;
+        transform: scale(1);
+      }
+    }
+  }
+  &.ss-checkbox__checked {
+    .ss-checkbox-inner {
+      background-color: $mc;
+      border-color: $mc;
+      &:before {
+        transform: rotateZ(45deg) scale(1);
+      }
+    }
+  }
+  &.ss-checkbox__disabled {
+    color: #B2B2B2;
+    cursor: not-allowed;
+    .ss-checkbox-inner {
+      border-color: #eee;
+    }
+    &.ss-checkbox__checked {
+      .ss-checkbox-inner {
+        background-color: #eee;
+      }
+    }
+  }
+  &.ss-checkbox__small {
+    font-size: 12px;
+    .ss-checkbox-left {
+      width: 12px;
+      height: 12px;
+      .ss-checkbox-inner {
+        &:before {
+          left: 3px;
+          top: 1px;
+          width: 4px;
+          height: 7px;
+        }
+      }
+    }
+    .ss-checkbox-text {
+      line-height: 17px;
+    }
+  }
+  .ss-checkbox-text {
+    line-height: 19px;
+  }
+}
+.ss-checkbox-left {
+  position: relative;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+  margin-top: 3px;
+  & + span {
+    padding: 0 8px;
+  }
+  &.is-focus {
+    .ss-checkbox-inner {
+      border-color: $mc;
+    }
+  }
+  .ss-checkbox-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  .ss-checkbox-inner {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    border: 1px solid #B2B2B2;
+    transition: .1s ease-in-out;
+    &:before {
+      content: '';
+      position: absolute;
+      left: 4px;
+      top: 1px;
+      width: 5px;
+      height: 8px;
+      border: 2px solid #fff;
+      border-left: 0;
+      border-top: 0;
+      transform: rotateZ(45deg) scale(0);
+      transition: .1s ease-in-out;
+      box-sizing: border-box;
+    }
+  }
+}

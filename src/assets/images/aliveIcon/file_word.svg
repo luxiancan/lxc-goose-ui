@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/word</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons/word" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/ppt" fill-rule="nonzero">
+            <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="120" height="120" rx="8"></rect>
+            <g id="word" fill="#529FFF">
+                <path d="M7.5,0 L112.5,0 C116.642136,-7.60897969e-16 120,3.35786438 120,7.5 L120,112.5 C120,116.642136 116.642136,120 112.5,120 L7.5,120 C3.35786438,120 5.07265312e-16,116.642136 0,112.5 L0,7.5 C-5.07265312e-16,3.35786438 3.35786438,7.60897969e-16 7.5,0 Z M39.8206639,41.25 L33.75,41.25 L44.5422911,82.5 L50.4162206,82.5 L60,48.2981621 L69.5275695,82.5 L75.401499,82.5 L86.25,41.25 L80.1231263,41.25 L72.3380621,74.8059904 L63.007227,41.25 L56.9365631,41.25 L47.605728,74.8059904 L39.8206639,41.25 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

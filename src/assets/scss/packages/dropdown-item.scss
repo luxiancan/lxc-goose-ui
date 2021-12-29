@@ -1,0 +1,18 @@
+@import '../base.scss';
+
+.ss-dropdown-item {
+  color: #353535;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+  &:hover {
+    background-color: #f7f8fb;
+    color: $mc;
+  }
+  &.ss-dropdown-item__disabled {
+    background-color: transparent;
+    color: #B2B2B2;
+    cursor: not-allowed;
+  }
+}

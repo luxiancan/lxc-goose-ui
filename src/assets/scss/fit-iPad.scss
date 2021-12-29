@@ -1,0 +1,27 @@
+$page-max-with: 480px;
+
+// iPad设备
+$devices: (768px: 1024px, 1024px: 1366px, 834px: 1112px);
+
+@mixin fit-iPad($attr: '', $value: '') {
+  @each $device-width, $device-height  in $devices {
+    // 竖屏
+    @media only screen and (device-width: #{$device-width}) and (device-height: #{$device-height}) and (orientation:portrait) {
+      max-width: 100% !important;
+      @if $attr != '' {
+        #{$attr}: $value;
+      }
+    }
+    // 横屏
+    @media only screen and (device-width: #{$device-height}) and (device-height: #{$device-width}) and (orientation:landscape) {
+      max-width: 100% !important;
+      @if $attr != '' {
+        #{$attr}: $value;
+      }
+    }
+  }
+}
+
+.last-page {
+  @include fit-iPad(display, none !important);
+}

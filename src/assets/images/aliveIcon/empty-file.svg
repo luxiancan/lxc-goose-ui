@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="83px" viewBox="0 0 64 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>pdf</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="上传文件为空的情况" transform="translate(-156.000000, -442.000000)">
+            <g id="图文回答" transform="translate(0.000000, 212.000000)">
+                <g id="pdf" transform="translate(156.000000, 230.000000)">
+                    <path d="M44.6063516,0 L2.14069517,0 C0.958411031,0 0,0.965898618 0,2.84018433 L0,81.1059908 C0,81.6147465 0.958411031,82.5806452 2.14069517,82.5806452 L61.8593048,82.5806452 C63.041589,82.5806452 64,81.6147465 64,81.1059908 L64,19.1380645 C64,18.1117051 63.8639203,17.7813825 63.6239517,17.5380645 L45.5164763,0.378986175 C45.2750445,0.137142857 44.9472825,0 44.6063516,0 Z" id="路径" fill="#E6F5F2" fill-rule="nonzero"></path>
+                    <rect id="矩形" fill="#75CAB9" opacity="0.400000006" x="14" y="42" width="36" height="3" rx="1.5"></rect>
+                    <rect id="矩形备份-2" fill="#75CAB9" opacity="0.400000006" x="14" y="55" width="36" height="3" rx="1.5"></rect>
+                    <polygon id="路径" fill="#C7EBE1" fill-rule="nonzero" points="45.3657234 0.235455069 45.3657234 17.7086348 64 17.7086348"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

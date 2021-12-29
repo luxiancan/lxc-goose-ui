@@ -1,0 +1,89 @@
+@import '../base.scss';
+
+.ss-input {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  &:hover {
+    .ss-input-inner {
+      border-color: #c0c4cc;
+    }
+  }
+  &.ss-input__focus {
+    .ss-input-inner {
+      border-color: $mc;
+    }
+  }
+  &.ss-input__disabled {
+    &:hover {
+      .ss-input-inner {
+        border-color: #e4e7ed;
+      }
+    }
+    .ss-input-inner {
+      background-color: #f5f7fa;
+      border-color: #e4e7ed;
+      color: #c0c4cc;
+      cursor: not-allowed;
+      user-select: none;
+    }
+  }
+  &.ss-input__prefix {
+    .ss-input-inner {
+      padding-left: 30px;
+    }
+  }
+  &.ss-input__suffix {
+    .ss-input-inner {
+      padding-right: 30px;
+    }
+  }
+  .ss-input-inner {
+    width: inherit;
+    height: inherit;
+    padding: 0 8px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .2s ease-in-out;
+    box-sizing: border-box;
+    &:focus {
+      border-color: $mc;
+    }
+  }
+  .ss-input-decoration-icon {
+    position: absolute;
+    top: 0;
+    width: 26px;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    pointer-events: none;
+    cursor: pointer;
+    .ss-input-icon {
+      margin: auto;
+      font-size: 14px;
+      transition: all .3s ease-in-out;
+      &.is-reverse {
+        transform: rotateZ(-180deg);
+      }
+    }
+  }
+  .ss-input-prefix-icon {
+    left: 4px;
+  }
+  .ss-input-suffix-icon {
+    right: 4px;
+  }
+  .ss-input-error-msg {
+    position: absolute;
+    left: 0;
+    bottom: -19px;
+    line-height: 17px;
+    color: #FB6161;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,12 @@
+@import '../base.scss';
+
+.ss-dropdown {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  color: $mc;
+  i {
+    margin-left: 5px;
+  }
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>矩形</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="实时视频-直播中" transform="translate(-341.000000, -368.000000)">
+            <g id="控件/顶部直播状态" transform="translate(0.000000, 355.000000)">
+                <g id="正在直播">
+                    <g>
+                        <g id="编组-10" transform="translate(341.000000, 13.000000)">
+                            <path d="M10.6363636,5 C10.8371945,5 11,5.16280555 11,5.36363636 L10.999,5.372 L11,12.6363636 C11,12.8371945 10.8371945,13 10.6363636,13 C10.4355328,13 10.2727273,12.8371945 10.2727273,12.6363636 L10.272,5.727 L3.36363636,5.72727273 C3.16280555,5.72727273 3,5.56446718 3,5.36363636 C3,5.16280555 3.16280555,5 3.36363636,5 L10.6363636,5 Z" id="Combined-Shape" stroke="#666666" stroke-width="0.5" fill="#666666" transform="translate(7.000000, 9.000000) rotate(-45.000000) translate(-7.000000, -9.000000) "></path>
+                            <rect id="矩形" x="0" y="0" width="14" height="14"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

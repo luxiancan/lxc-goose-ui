@@ -1,0 +1,24 @@
+@import '../base.scss';
+
+.ss-option {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  cursor: pointer;
+  &:hover {
+    background-color: #F5F7FA;
+  }
+  &.ss-option__disabled {
+    background-color: transparent;
+    color: #B2B2B2;
+    cursor: not-allowed;
+  }
+  &.ss-option__selected {
+    color: $mc;
+  }
+  &.ss-option__multiple {
+    padding-right: 32px;
+  }
+}

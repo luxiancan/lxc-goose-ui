@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>编组 22</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="直播页-全部收起备份" transform="translate(-336.000000, -72.000000)" stroke-width="0.5">
+            <g id="控件/顶部直播状态" transform="translate(0.000000, 64.000000)">
+                <g id="正在直播">
+                    <g>
+                        <g id="编组-22" transform="translate(348.000000, 20.000000) scale(1, -1) translate(-348.000000, -20.000000) translate(337.000000, 9.000000)">
+                            <path d="M14.6363636,9 C14.8371945,9 15,9.16280555 15,9.36363636 L14.999,9.372 L15,16.6363636 C15,16.8371945 14.8371945,17 14.6363636,17 C14.4355328,17 14.2727273,16.8371945 14.2727273,16.6363636 L14.272,9.727 L7.36363636,9.72727273 C7.16280555,9.72727273 7,9.56446718 7,9.36363636 C7,9.16280555 7.16280555,9 7.36363636,9 L14.6363636,9 Z" id="Combined-Shape" stroke="#666666" fill="#666666" transform="translate(11.000000, 13.000000) rotate(-45.000000) translate(-11.000000, -13.000000) "></path>
+                            <path d="M11,0 C17.0751322,-1.11598369e-15 22,4.92486775 22,11 C22,17.0751322 17.0751322,22 11,22 C4.92486775,22 7.43989126e-16,17.0751322 0,11 C-7.43989126e-16,4.92486775 4.92486775,1.11598369e-15 11,0 Z" id="矩形" stroke="#DDDDDD" transform="translate(11.000000, 11.000000) rotate(-270.000000) translate(-11.000000, -11.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

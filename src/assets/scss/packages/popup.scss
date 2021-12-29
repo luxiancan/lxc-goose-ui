@@ -1,0 +1,188 @@
+$--max-width-base: 480px;
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+@mixin keyframes($name) {
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin slide-in($name, $width: 0, $height: 0) {
+  @include keyframes($name) {
+    from {
+      width: $width;
+      height: $height;
+      padding-bottom: 0;
+    }
+  }
+}
+
+@mixin slide-out($name, $width: 0, $height: 0) {
+  @include keyframes($name) {
+    to {
+      width: $width;
+      height: $height;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.ss-popup {
+  z-index: 100;
+
+  &__overlay {
+    z-index: 101;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: $--max-width-base;
+    margin: 0 auto;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  @mixin default {
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 102;
+  }
+
+  &__close {
+    color: #bfbfbf;
+    position: absolute;
+    top: 0.24rem;
+    right: 0.32rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  $radius: 0.32rem;
+
+  &--top {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: $--max-width-base;
+    margin: 0 auto;
+    height: 200px;
+    @include default;
+    &--round {
+      border-radius: 0 0 $radius $radius;
+    }
+    &.slide-enter-active,
+    &.slide-enter-to {
+      $name: top-slide-in;
+      @include slide-in($name, 100%, 0);
+      animation: $name 0.3s;
+    }
+
+    &.slide-leave-active,
+    &.slide-leave-to {
+      $name: top-slide-out;
+      @include slide-out($name, 100%, 0);
+      animation: $name 0.3s;
+    }
+  }
+
+  &--bottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: $--max-width-base;
+    margin: 0 auto;
+    height: 200px;
+    @include default;
+    &--round {
+      border-radius: $radius $radius 0 0;
+    }
+
+    &.slide-enter-active,
+    &.slide-enter-to {
+      $name: bottom-slide-in;
+      @include slide-in($name, 100%, 0);
+      animation: $name 0.3s;
+    }
+
+    &.slide-leave-active,
+    &.slide-leave-to {
+      $name: bottom-slide-out;
+      @include slide-out($name, 100%, 0);
+      animation: $name 0.3s;
+    }
+  }
+
+  &--left {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    @include default;
+    &--round {
+      border-radius: 0 $radius $radius 0;
+    }
+
+    &.slide-enter-active,
+    &.slide-enter-to {
+      $name: left-slide-in;
+      @include slide-in($name, 0, 100%);
+      animation: $name 0.3s;
+    }
+
+    &.slide-leave-active,
+    &.slide-leave-to {
+      $name: left-slide-out;
+      @include slide-out($name, 0, 100%);
+      animation: $name 0.3s;
+    }
+  }
+
+  &--right {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    @include default;
+    &--round {
+      border-radius: $radius 0 0 $radius;
+    }
+
+    &.slide-enter-active,
+    &.slide-enter-to {
+      $name: right-slide-in;
+      @include slide-in($name, 0, 100%);
+      animation: $name 0.3s;
+    }
+
+    &.slide-leave-active,
+    &.slide-leave-to {
+      $name: right-slide-out;
+      @include slide-out($name, 0, 100%);
+      animation: $name 0.3s;
+    }
+  }
+
+  &--center {
+    top: 50%;
+    right: 50%;
+    height: 5.9rem;
+    width: 5.9rem;
+    @include default;
+    transform: translate(50%, -50%);
+    &--round {
+      border-radius: 0.16rem;
+    }
+  }
+}

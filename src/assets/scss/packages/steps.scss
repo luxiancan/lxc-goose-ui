@@ -1,0 +1,10 @@
+@import '../base.scss';
+
+.ss-steps {
+  display: flex;
+  font-size: 0;
+  transition: background 0.3s;
+}
+.ss-steps__vertical {
+  display: block;
+}

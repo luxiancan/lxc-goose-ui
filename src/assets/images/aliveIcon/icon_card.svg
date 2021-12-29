@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>矩形备份 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="讲师端-加号展开1" transform="translate(-240.000000, -629.000000)" fill="#787878">
+            <g id="编组-9" transform="translate(0.000000, 547.000000)">
+                <g id="编组-18" transform="translate(230.000000, 72.000000)">
+                    <g id="编组-13" transform="translate(10.000000, 10.000000)">
+                        <g id="编组-21" transform="translate(5.000000, 8.000000)">
+                            <path d="M2,0 L26,0 C27.1045695,0 28,0.8954305 28,2 L28,20 C28,21.1045695 27.1045695,22 26,22 L2,22 C0.8954305,22 0,21.1045695 0,20 L0,2 C0,0.8954305 0.8954305,0 2,0 Z M1.5,1.5 L1.5,20.5 L26.5,20.5 L26.5,1.5 L1.5,1.5 Z" id="矩形" fill-rule="nonzero"></path>
+                            <rect id="矩形" x="0.5" y="6.5" width="27" height="1.5"></rect>
+                            <rect id="矩形备份-2" x="4" y="13" width="7" height="1.5" rx="0.75"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

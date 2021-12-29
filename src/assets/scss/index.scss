@@ -1,0 +1,19 @@
+[class^="ss-"], [class^="ss-"] *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+[class^="icon-icon"], [class*=" icon-icon"] {
+  font-family: 'iconfont';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@import './iconfont.scss';
+

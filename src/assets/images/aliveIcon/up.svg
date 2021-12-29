@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>up</title>
+    <desc>Created with Sketch.</desc>
+    <g id="优惠券界面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="优惠券弹窗-展开详细信息，点击区域" transform="translate(-172.000000, -555.000000)">
+            <g id="动作栏弹出" transform="translate(0.000000, 200.000000)">
+                <g id="优惠券/详细信息展开/未领取" transform="translate(16.000000, 282.000000)">
+                    <g id="内容" transform="translate(116.000000, 16.000000)">
+                        <g id="收起" transform="translate(40.000000, 57.000000)">
+                            <g>
+                                <rect id="矩形备份-2" x="0" y="0" width="12" height="12"></rect>
+                                <path d="M4.5,8.5 L4.5,4.5 L3.5,4.5 L3.5,9 C3.5,9.27614237 3.72385763,9.5 4,9.5 L8.5,9.5 L8.5,8.5 L4.5,8.5 Z" id="路径备份" fill="#979797" fill-rule="nonzero" transform="translate(6.000000, 7.000000) scale(1, -1) rotate(-45.000000) translate(-6.000000, -7.000000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

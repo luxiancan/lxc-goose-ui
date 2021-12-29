@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/excel</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons/excel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="120" height="120" rx="8"></rect>
+        <g id="excel" fill="#00D1A5" fill-rule="nonzero">
+            <path d="M7.5,0 L112.5,0 C116.642136,-7.60897969e-16 120,3.35786438 120,7.5 L120,112.5 C120,116.642136 116.642136,120 112.5,120 L7.5,120 C3.35786438,120 5.07265312e-16,116.642136 0,112.5 L0,7.5 C-5.07265312e-16,3.35786438 3.35786438,7.60897969e-16 7.5,0 Z M47.7629659,83.4927274 L60.7707784,64.18875 L73.4270284,83.4927274 L81.3212044,83.4927274 L64.7977669,59.426676 L80.5541591,36.5431534 L72.9795851,36.5431534 L61.0903807,54.504801 L49.1052956,36.5431534 L41.147199,36.5431534 L56.9035909,59.426676 L40.0925115,83.4927274 L47.7629659,83.4927274 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
